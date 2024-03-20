@@ -1,0 +1,8 @@
+Origin: Cameron's Private Repo
+Label: Cameron's Private Repo
+Suite: stable
+Version: 1.1
+Codename: Archie
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Cameron's Private Repo
