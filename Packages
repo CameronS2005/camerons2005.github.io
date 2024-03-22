@@ -150,6 +150,23 @@ Priority: important
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
+Package: clang
+Version: 14.0.0~5.7.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 0
+Depends: clang-14 (= 14.0.0~5.7.2~RELEASE), libc++-dev (= 14.0.0~5.7.2~RELEASE)
+Provides: c++-compiler, c-compiler, objc-compiler
+Filename: debs/clang_v14.0.0_5.7.2_RELEASE_iphoneos-arm64.deb
+Size: 812
+MD5sum: 90d14fa75948650db4ac403bb75b4e3b
+SHA1: 136f898de3bd3c7965a7ff81502cbb75e7f895df
+SHA256: 7b127e733e967e73b07a2eba25a2576d74b575c4d629fdb08b9cec0c96eff137
+Section: Development
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: C, C++ and Objective-C compiler
+
 Package: cn.tinyapps.location360pro
 Version: 3.0.4
 Architecture: iphoneos-arm64
@@ -548,6 +565,22 @@ Section: Themes
 Description: A theme with beautiful icons!
 Author: Cyrex
 Name: Epiphany
+
+Package: com.dao.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Conflicts: com.nightwind.jade
+Filename: debs/com.dao.jade_v1.0.1_iphoneos-arm64.deb
+Size: 283284
+MD5sum: e65bfcaa5a85f91406ccf491d7548397
+SHA1: 5043a90e70718af9dba45f4775ead35568d81ebd
+SHA256: 9d85d538aa116ca548267e530102a026297ee8d7be09afa364760047d1a7d029
+Section: 嗨-工具
+Description: Prysm控制中心自定义。
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Name: Jade(rootless)
 
 Package: com.foxfort.foxforttools
 Version: 1.4.8
@@ -1200,6 +1233,25 @@ Dev: opa334
 Name: libSandy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.p2kdev.swipetoreply
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 176
+Depends: mobilesubstrate
+Filename: debs/com.p2kdev.swipetoreply_v1.0_iphoneos-arm64.deb
+Size: 13428
+MD5sum: 334e740e533c59f925927c3b5d83e091
+SHA1: 9a812c6664682464d22fac6f1ddb20ac268702e3
+SHA256: ed5cb6ca8a9c20d3c2bce70de6ec3af3be4d76b0ef8bd3b6ccd078c8a02bf888
+Section: Tweaks
+Description: Swipe to reply in Messages!
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.swipetoreply
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.swipetoreply/icon.png
+Name: SwipeToReply
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.swipetoreply.json
+
 Package: com.pordiosero
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -1757,6 +1809,22 @@ Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
  .
  SSL support is provided by OpenSSL
 
+Package: libgcrypt20-dev
+Version: 1.10.2
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 2444
+Depends: libiosexec1 (>= 1.3.1), libgpg-error-dev (>= 1.37), libgcrypt20 (= 1.10.2)
+Filename: debs/libgcrypt20-dev_v1.10.2_iphoneos-arm64.deb
+Size: 1157728
+MD5sum: 9dbf4d73d67e42ae46dec12ef16788f5
+SHA1: 2ea551635c1bf550c5555f41361d50840d906aa4
+SHA256: 31984c2290df3faf4365c0ff0148d0dd43bb3dc4675eccce3fb7e54727d0e056
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Description: LGPL cryptographic algorithm library (Development files)
+
 Package: libjq1
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -1772,6 +1840,36 @@ Section: Development
 Priority: optional
 Homepage: https://stedolan.github.io/jq/
 Description: a lightweight and flexible command-line JSON processor - shared library
+
+Package: liblz4-dev
+Version: 1.9.4
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 380
+Depends: liblz4-1 (= 1.9.4)
+Conflicts: lz4 (<< 1.9.4)
+Filename: debs/liblz4-dev_v1.9.4_iphoneos-arm64.deb
+Size: 219328
+MD5sum: eead64587ffdc41b53dfd17ef6ef8ad9
+SHA1: e0d7e14e0d7dad5fff22727403eb7c7ebbca5536
+SHA256: 4a1390158ffca770f4744d2a8b2952bcdb186d5f99b8fde62798c56618e5f5d7
+Section: Development
+Homepage: http://tukaani.org/lzma/
+Description: Fast LZ compression algorithm library - development files
+
+Package: liblzo2-2
+Version: 2.10
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 180
+Depends: libiosexec1 (>= 1.2.2)
+Filename: debs/liblzo2-2_v2.10_iphoneos-arm64.deb
+Size: 48360
+MD5sum: a2c75e945fa0724f12d0d9d1c8b5b2be
+SHA1: d4925e0f0092ee3c8bab72f0e8e56d50e88c00be
+SHA256: 2940c7a7ec56ca4949833c2d3db38f4004f5780afd2f1140f14ae460239eb8a2
+Section: Development
+Description: Portable lossless data compression library
 
 Package: libmagic1
 Version: 5.43
@@ -1813,6 +1911,23 @@ Description: multiple precision floating-point computation
  ANSI/IEEE-754 standard for double-precision floating-point arithmetic
  (53-bit mantissa).
 
+Package: libncurses-dev
+Version: 6.4
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 2848
+Depends: libncursesw6 (= 6.4)
+Conflicts: ncurses (<< 6.4)
+Replaces: ncurses (<< 6.4)
+Filename: debs/libncurses-dev_v6.4_iphoneos-arm64.deb
+Size: 1131112
+MD5sum: d58d52adf102e7e0f3f896ebbdc55716
+SHA1: 96372e50de63f48d4d9eb48d51421b088843ad2c
+SHA256: b17ae1adb083904cbf40eb461d6e4ea789ca85986c8deb507f50aafb1d520617
+Section: Development
+Priority: optional
+Description: developer's libraries for ncurses
+
 Package: libnghttp2-14
 Version: 1.52.0
 Architecture: iphoneos-arm64
@@ -1848,6 +1963,23 @@ SHA256: 3c55268b2606f4b2d599e81aca453246398b58316ad47b15a3b9509e59373427
 Section: Development
 Priority: optional
 Description: regular expression library
+
+Package: libreadline-dev
+Version: 8.2.0-1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 728
+Depends: libreadline8 (= 8.2.0-1), libncursesw6
+Conflicts: readline (<< 8.2.0-1)
+Replaces: readline (<< 8.2.0-1)
+Filename: debs/libreadline-dev_v8.2.0-1_iphoneos-arm64.deb
+Size: 315580
+MD5sum: e108af2069ae1b922376ed42c1ef80b6
+SHA1: f18e30d253914c4c1926dbe2540a89994408a644
+SHA256: 0498faeb272227aa454813a7cceded255d7cb07ddf8947eec58f06fe9fcdaf15
+Section: Development
+Priority: optional
+Description: GNU readline and history libraries, development files
 
 Package: librtmp1
 Version: 2.4+20151223.gitfa8646d.1
@@ -1987,6 +2119,25 @@ Depiction: https://luki120.github.io/depictions/web/?p=me.luki.elixir
 Icon: https://raw.githubusercontent.com/Luki120/luki120.github.io/master/assets/Tweaks/Apps/Elixir/ElixirIcon.png
 Name: Elixir
 Sileodepiction: https://luki120.github.io/depictions/native/me.luki.elixir/depiction.json
+
+Package: meson
+Version: 0.64.0
+Architecture: all
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 3960
+Depends: python3, ninja (>= 1.10.0)
+Filename: debs/meson_v0.64.0_iphoneos-arm64.deb
+Size: 564184
+MD5sum: 51a7658703a4907885e999ae2f4e6b4a
+SHA1: 4f73993b97a68d12e53770be6ce09e17137d4d79
+SHA256: 13e041f836ba2567292e960867bd22902986e4acbabff34e9a6289c3f5dedae9
+Section: Development
+Priority: optional
+Homepage: https://www.mesonbuild.com/
+Description: high-productivity build system
+ Meson is a build system designed to increase programmer productivity.
+ It does this by providing a fast, simple and easy to use interface
+ for modern software development tools and practices.
 
 Package: net.limneos.answeringmachinex-rootless
 Version: 2.0-2
@@ -2237,6 +2388,21 @@ Priority: important
 Multi-Arch: foreign
 Description: simple socket manipulation tool
 
+Package: ninja
+Version: 1.11.1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 328
+Depends: libiosexec1 (>= 1.3.1)
+Filename: debs/ninja_v1.11.1_iphoneos-arm64.deb
+Size: 134558
+MD5sum: 2794fb80a3562e6d8fe3c21eba06f0d6
+SHA1: f2ecd0b3a997fbeae2d20043cd926fedb1c7190e
+SHA256: b42dd5d4c143675c35ccc8a058834539124d394c532ea82e3ad15f6fd37b7017
+Section: Development
+Priority: optional
+Description: Small build system for use with gyp or CMake
+
 Package: oldabi
 Version: 0.3.2
 Architecture: iphoneos-arm64
@@ -2412,6 +2578,23 @@ Description: 7z and 7za file archivers with high compression ratio
     HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF,
     VHD, WIM, XAR and Z.
 
+Package: pkg-config
+Version: 0.29.2-3
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 148
+Depends: libiosexec1 (>= 1.2.2), libglib2.0-0 (>= 2.65.0), libintl8
+Filename: debs/pkg-config_v0.29.2-3_iphoneos-arm64.deb
+Size: 41946
+MD5sum: 8ed8369884ce1748017c547c89acadc4
+SHA1: de06966b9b5dc93f35d982ed9fada9b82e8b1e3c
+SHA256: 2dc5a9544bf55740c3d1d06149745411c9f2084df1fe696fff3f3dd1e99e8a67
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+Description: manage compile and link flags for libraries
+
 Package: plutil
 Version: 0.2.2
 Architecture: iphoneos-arm64
@@ -2499,6 +2682,33 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/intelligentpass5.png
 Name: IntelligentPass 5
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1346
 
+Package: speedtest-cli
+Version: 2.1.3
+Architecture: all
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 80
+Depends: python3, ca-certificates
+Filename: debs/speedtest-cli_v2.1.3_iphoneos-arm64.deb
+Size: 20786
+MD5sum: 05ac165e8b3d44f987a3ca47d96c7994
+SHA1: d2e3428ed7bef58ef6ef8ea859e19490a6bf5e7b
+SHA256: 633b7a5bc0b37d317ce6a600b4169a7ad57d75429898782b7e0366246cf545fa
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/sivel/speedtest-cli/
+Description: Command line interface for testing internet bandwidth using speedtest.net
+ Speedtest.net is a webservice that allows you to test your broadband
+ connection by downloading a file from one of many Speedtest.net
+ servers from around the world.
+ .
+ This utility allows you to use the Speedtest.net service from the
+ command line.
+ .
+ Note: This tool accesses speedtest.net over http, while the web-based client
+ uses websockets. This tool has shown to become increasingly inacurate with
+ high-speed connections. For more information, see the readme on:
+ https://github.com/sivel/speedtest-cli
+
 Package: u.blanxd.opensshport
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -2556,6 +2766,25 @@ SHA256: 3619c68379592ce1b423f813ad89e9a9842ed5df8620c77aa2ac8f757e398e29
 Section: Archiving
 Priority: important
 Description: de-compesses files in zip format
+
+Package: weeb.lillie.accentcustom
+Version: 2.2.1
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Installed-Size: 392
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Conflicts: com.ivanc.accent
+Filename: debs/weeb.lillie.accentcustom_v2.2.1_iphoneos-arm64.deb
+Size: 26412
+MD5sum: 75be0c1ae59bd9fa8f1666bbf2481216
+SHA1: fec8fa4db5846e2cfdb623dc735d7732eed64b85
+SHA256: 2844b3631d3baaddceadb00963780a34cab876877560e6fe4920de21a85bca6f
+Section: Tweaks
+Description: iOS Accent Colours In macOS Style
+Author: Lillie & Hitori
+Icon: https://siieo.github.io/sileodepictions/AccentCustom/icon.png
+Name: Accent Custom
+Sileodepiction: https://siieo.github.io/sileodepictions/AccentCustom/AccentCustom.json
 
 Package: ws.hbang.common
 Version: 2.0
@@ -2634,6 +2863,61 @@ Depiction: https://repo.cypwn.xyz/depiction/1385
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/abstract.png
 Name: Abstract
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1385
+
+Package: xyz.cypwn.aichatvip
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/xyz.cypwn.aichatvip_v1.0.0_iphoneos-arm64.deb
+Size: 14598
+MD5sum: f4afac21eec4f0b14a3f0859f6cb17b4
+SHA1: 891593f4f8f679870e338b428d4c9b24515b658e
+SHA256: 24130eafcee0549804b6b4a61da7ddccc12c1b85f42c816cb3d4c7b4da7cf1a5
+Section: Tweaks
+Description: VIP Membership Unlocked (Ignore the first pop-up !)
+Author: Ravand <Ravand0010@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/1323
+Name: AI Chat VIP
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1323
+
+Package: xyz.cypwn.aismithpremium
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/xyz.cypwn.aismithpremium_v1.0.0_iphoneos-arm64.deb
+Size: 45502
+MD5sum: 625160a10bc496cdaef1f1b83287f411
+SHA1: c27e12d89bf5ce851a118a81fb814a535f1afaf3
+SHA256: 51f5735f9d53994fef09280af8b433364c0dba2f66134d1bbee0eecf0fd471ff
+Section: Tweaks
+Description: Yearly Membership Activated
+Author: Ravand <Ravand0010@gmail.com>
+Depiction: https://repo.cypwn.xyz/depiction/1353
+Icon: https://i.postimg.cc/W3xbgsP2/1503-A9-A3-713-B-4232-A556-C1-E034-D18067.png
+Name: AI Smith Premium
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1353
+
+Package: xyz.cypwn.apollocrackrootless
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 248
+Depends: firmware (>= 12.2)
+Filename: debs/xyz.cypwn.apollocrackrootless_v1.3.3_iphoneos-arm64.deb
+Size: 55594
+MD5sum: 50a4dc3b8f702f4788ead82309189cac
+SHA1: c17d15990ad38ad3a2c0daa6ebdf362780e83d4e
+SHA256: 497e1c6e42717f1d664f70a7dc443eb43327487b0056939ab69195251b65454d
+Section: Cracks
+Description: Apollo Ultra for free
+Author: Lilliana
+Depiction: https://repo.cypwn.xyz/depiction/1170
+Name: Apollo Ultra Crack (rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1170
 
 Package: xyz.cypwn.atria
 Version: 1.4.1
@@ -2746,6 +3030,26 @@ Depiction: https://repo.cypwn.xyz/depiction/1445
 Icon: https://media.havoc.app/61fc71be57c005d8f99968a9?w=3840&q=75
 Name: Viola Black
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1445
+
+Package: xyz.cypwn.carbridge13
+Version: 2.0.12
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 7344
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: debs/xyz.cypwn.carbridge13_v2.0.12_iphoneos-arm64.deb
+Size: 1874198
+MD5sum: c71a674f91d83cbed3b6c9cbd20e43f9
+SHA1: bccd1f0aa2522e5541e7054dfdea32020710a256
+SHA256: 7b9c9dc14d2d045fff96660f4f6926a24710bf88e45c60251e54ac4f6ab4e89f
+Section: Tweaks
+Description: Open any app in CarPlay! CarPlay
+Author: leftyfl1p
+Depiction: https://repo.cypwn.xyz/depiction/1220
+Icon: https://media.havoc.app/6393d4ecfb3fac29d26b9143
+Name: CarBridge13
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1220
 
 Package: xyz.cypwn.ccplusplus
 Version: 2.0
@@ -2915,6 +3219,24 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/designer.png
 Name: Designer
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2183
 
+Package: xyz.cypwn.ena
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate
+Filename: debs/xyz.cypwn.ena_v1.0.1_iphoneos-arm64.deb
+Size: 61971558
+MD5sum: e9d842d21c96afe4f03e311c32080abf
+SHA1: 03deb70f235e52acf4a583119e68bc2c084cb93b
+SHA256: 59e2614dc643b104df6900064f17c09170c6d8135634dc629e02b7bf2a534c91
+Section: Tweaks
+Description: Extract Nearly Anything
+Author: x1a0
+Depiction: https://repo.cypwn.xyz/depiction/1396
+Icon: https://media.havoc.app/64a42e09e02881606102d9ed
+Name: ENA - Extract Nearly Anything
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1396
+
 Package: xyz.cypwn.erika
 Version: 1.13.3
 Architecture: iphoneos-arm64
@@ -3043,6 +3365,24 @@ Depiction: https://repo.cypwn.xyz/depiction/1695
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/gasolina.png
 Name: Gasolina
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1695
+
+Package: xyz.cypwn.grider
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, preferenceloader
+Filename: debs/xyz.cypwn.grider_v1.4.1_iphoneos-arm64.deb
+Size: 84762
+MD5sum: aaa20d77fedecbbb8645f4161207d347
+SHA1: e2090207edafc96434dbab5d6d69219ecfa8a304
+SHA256: f205c64663ffaf16ca9aee7755a6634fc9852b2497103682d221d077bd38504e
+Section: Tweaks
+Description: Weird useless tweak that costs $3 to display lines on your screen, but luckily it's free here.
+Author: gilshahar7
+Depiction: https://repo.cypwn.xyz/depiction/2171
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/grider.png
+Name: Grider
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2171
 
 Package: xyz.cypwn.harpy-reloaded
 Version: 1.0.1k
@@ -3374,6 +3714,24 @@ Author: alias20
 Depiction: https://repo.cypwn.xyz/depiction/1706
 Name: Speedy
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1706
+
+Package: xyz.cypwn.splitviewpro
+Version: 0.0.3-1-49
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/xyz.cypwn.splitviewpro_v0.0.3-1-49_iphoneos-arm64.deb
+Size: 252666
+MD5sum: cd5212a2d75e5e4990d701f9a67a43e9
+SHA1: 3f7edded526020f89f94cef4992fe40ef9ae72ac
+SHA256: febf45abad02403bba6c8f6d76fa6604285e744ff06789ce6559e5e7c5baac73
+Section: Tweaks
+Description: A free split-screen tweak currently in development by sunshinesong. Await patiently for improvements.
+Author: sunshinesong
+Depiction: https://repo.cypwn.xyz/depiction/2202
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/splitviewpro.png
+Name: Split View Pro
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2202
 
 Package: xyz.cypwn.stella
 Version: 1.0.4
