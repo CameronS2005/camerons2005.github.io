@@ -1,5 +1,9 @@
 rm -rf Packages Packages.bz2 Packages.gz Packages.zst #Release
 dpkg-scanpackages -m debs > Packages
+#read -p "Press Key To Push Update To Main Branch!"
+#git add .
+#git commit "Updated Repo"
+#git push origin main
 #bzip2 -k Packages
 #gzip -k Packages
 #zstd -19 Packages
