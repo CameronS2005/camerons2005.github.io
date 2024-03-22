@@ -1167,6 +1167,21 @@ Author: NeinZedd9
 Depiction: https://kingpuffdaddi.github.io/depictions/?p=com.neinzedd9.fakecallhistory
 Name: Fake Call History
 
+Package: com.nightwind.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/jade_NEW_iphoneos-arm64.deb
+Size: 283468
+MD5sum: 5e7e7be4b64f9d2a2b6d3b603afa7980
+SHA1: 287787ccc63d3ade701e975a20bacd168cea2705
+SHA256: b5ffb875dd4376c9519dfed76d49a1f55520b255f020189d7a822c746bebf671
+Section: Tweaks
+Description: Your control center, brought anew.
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Name: Jade
+
 Package: com.noisyflake.velvet2
 Version: 2.1.2-3
 Architecture: iphoneos-arm64
