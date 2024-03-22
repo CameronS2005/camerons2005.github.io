@@ -1,8 +1,8 @@
 rm -rf Packages Packages.bz2 Packages.gz Packages.zst #Release
 dpkg-scanpackages -m debs > Packages
-bzip2 -k Packages
-gzip -k Packages
-zstd -19 Packages
+#bzip2 -k Packages
+#gzip -k Packages
+#zstd -19 Packages
 #cp Base Release
 #packages_size=$(ls -l Packages | awk '{print $5,$9}')
 #packages_md5=$(md5sum -r Packages | awk '{print $1}')
