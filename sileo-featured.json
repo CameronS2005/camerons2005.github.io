@@ -3,16 +3,16 @@
   "itemSize":"{296, 148}",
   "itemCornerRadius":10,
   "banners":[
-    //{
-    //    "url":"https://repo.cypwn.xyz/assets/repo/Featured/cydown.png",
-    //    "title":"CyDown++",
-    //    "package":"xyz.cypwn.cydown",
-    //    "hideShadow":false
-    //},
     {
-        "url":"https://repo.cypwn.xyz/assets/repo/Featured/debra.png",
-        "title":"Debra",
-        "package":"xyz.cypwn.debra",
+        "url":"https://media.havoc.app/65d920d5dc4f78f775457f85",
+        "title":"Flora",
+        "package":"xyz.cypwn.flora",
+        "hideShadow":false
+    },
+    {
+        "url":"https://media.havoc.app/6393d4ecfb3fac29d26b9143",
+        "title":"CarBridge",
+        "package":"xyz.cypwn.carbridge13",
         "hideShadow":false
     },
     {
